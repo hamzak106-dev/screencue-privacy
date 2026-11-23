@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Screencue Privacy Policy</title>
+    <meta name="description" content="How the Screencue Chrome extension handles your data." />
+    <style>
+      :root {
+        --bg: #ffffff; --text: #18181f; --muted: #666676; --border: #e7e7ef; --accent: #5b4ff0;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root { --bg: #0f0f14; --text: #ececf1; --muted: #9a9aab; --border: #26262f; --accent: #a99fff; }
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0; background: var(--bg); color: var(--text);
+        font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      }
+      main { max-width: 760px; margin: 0 auto; padding: 56px 16px 80px; }
+      h1 { font-size: 34px; line-height: 1.2; margin: 0 0 6px; letter-spacing: -0.02em; }
+      h2 { font-size: 20px; margin: 40px 0 8px; }
+      p, li { color: var(--text); }
+      .muted { color: var(--muted); }
+      a { color: var(--accent); }
+      table { width: 100%; border-collapse: collapse; margin: 12px 0; font-size: 15px; }
+      th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+      th { font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; color: var(--muted); }
+      .callout { border: 1px solid var(--border); border-radius: 12px; padding: 16px 18px; margin: 24px 0; }
+      @media (max-width: 560px) { table, thead, tbody, tr, th, td { display: block; } thead { display: none; } td { border: 0; padding: 4px 0; } tr { border-bottom: 1px solid var(--border); padding: 10px 0; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Screencue Privacy Policy</h1>
+      <p class="muted">Effective date: November 19, 2026</p>
+
+      <div class="callout">
+        <strong>In short:</strong> Screencue records your screen, camera and microphone on your own computer and uploads
+        the video directly to <strong>your</strong> Google Drive. We do not run servers that receive your recordings,
+        we do not collect analytics, and we never sell or share your data.
+      </div>
+
+      <p>
+        This policy explains how the Screencue Chrome extension ("Screencue", "we", "us"), published by
+        <strong>Hamza Khan</strong>, handles information when you use it.
+      </p>
+
+      <h2>Information Screencue accesses</h2>
+      <table>
+        <thead>
+          <tr><th>Data</th><th>Why</th><th>Where it goes</th></tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Screen, window or tab contents you choose to share</td>
+            <td>To create the recording you requested</td>
+            <td>Recorded locally in your browser, then uploaded to your Google Drive</td>
+          </tr>
+          <tr>
+            <td>Camera video and microphone audio (only when you enable them)</td>
+            <td>Camera bubble and voice-over in your recording</td>
+            <td>Recorded locally, then uploaded to your Google Drive</td>
+          </tr>
+          <tr>
+            <td>Google account name, email address and profile photo</td>
+            <td>To show which Drive account recordings are saved to</td>
+            <td>Stored only in your browser's extension storage</td>
+          </tr>
+          <tr>
+            <td>Google OAuth access token</td>
+            <td>To upload files to your Drive</td>
+            <td>Managed by Chrome's identity system; never sent anywhere except Google's APIs</td>
+          </tr>
+          <tr>
+            <td>Settings and recent recordings list (names, Drive links, durations)</td>
+            <td>To remember your preferences and show recent recordings</td>
+            <td>Stored only in your browser's extension storage</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h2>Google Drive access</h2>
+      <p>
+        Screencue requests the <code>drive.file</code> permission. That means it can only see and change files and
+        folders that Screencue itself created in your Drive. It cannot read, list or modify any of your other Drive
+        files. Screencue uses this access only to create folders you ask for, upload your recordings, rename them, and
+        optionally turn on link sharing when you enable the "Anyone with the link can view" setting.
+      </p>
+
+      <h2>Limited Use disclosure</h2>
+      <p>
+        Screencue's use and transfer of information received from Google APIs will adhere to the
+        <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>,
+        including the Limited Use requirements. Data from Google APIs is used only to provide the recording and upload
+        features you see in the extension. It is not transferred to anyone else, used for advertising, used to train
+        machine-learning models, or read by humans.
+      </p>
+
+      <h2>What we do not do</h2>
+      <ul>
+        <li>We do not operate servers that receive your recordings, camera, microphone or screen data.</li>
+        <li>We do not use analytics, tracking or advertising SDKs.</li>
+        <li>We do not sell, rent or share your data with third parties.</li>
+        <li>Screencue does not read the content of the web pages you visit. It only draws its camera bubble and recording controls on the page while a recording is in progress.</li>
+      </ul>
+
+      <h2>Data retention and deletion</h2>
+      <p>
+        Recordings live in your Google Drive and are under your control; delete them in Drive at any time. To remove
+        everything Screencue stores locally, uninstall the extension. To revoke Drive access, use
+        "Disconnect Google account" in Screencue's settings, or visit
+        <a href="https://myaccount.google.com/permissions">your Google Account permissions</a>.
+      </p>
+
+      <h2>Children</h2>
+      <p>Screencue is not directed to children under 13 and does not knowingly collect their information.</p>
+
+      <h2>Changes</h2>
+      <p>If this policy changes, we will update this page and its effective date.</p>
+
+      <h2>Contact</h2>
+      <p>Questions? Email <strong>hamzak106.dev@gmail.com</strong>.</p>
+    </main>
+  </body>
+</html>
